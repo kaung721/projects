@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <!-- Smoothie Order Form -->
+    <h1>Order a Smoothie</h1>
+    <form>
+        <!-- Ingredients Section -->
+        <h2>Ingredients</h2>
+        <div>
+            <!-- Ingredient selection with image, label, and checkbox -->
+            <div>
+                <img src="img/avocado.png" alt="Avocado">
+                <label for="avocado">Avocado</label>
+                <input type="checkbox" name="avocado" id="avocado" value="Avocado">
+            </div>
+            <div>
+                <img src="img/strawberries.png" alt="Strawberry">
+                <label for="strawberries">Strawberries</label>
+                <input type="checkbox" name="strawberries" id="strawberries" value="Strawberries">
+            </div>
+            <div>
+                <img src="img/blueberries.png" alt="Blueberries">
+                <label for="blueberries">Blueberries</label>
+                <input type="checkbox" name="blueberries" id="blueberries" value="Blueberries">
+            </div>
+            <div>
+                <img src="img/mango.png" alt="Mango">
+                <label for="mango">Mango</label>
+                <input type="checkbox" name="mango" id="mango" value="Mango">
+            </div>
+            <div>
+                <img src="img/pineapple.png" alt="Pineapple">
+                <label for="pineapple">Pineapple</label>
+                <input type="checkbox" name="pineapple" id="pineapple" value="Pineapple">
+            </div>
+        </div>
+        <div>
+            <div>
+                <img src="img/peach.png" alt="Peach">
+                <label for="peach">Peach</label>
+                <input type="checkbox" name="peach" id="peach" value="Peach">
+            </div>
+            <div>
+                <img src="img/banana.png" alt="Banana">
+                <label for="banana">Banana</label>
+                <input type="checkbox" name="banana" id="banana" value="Banana">
+            </div>
+            <div>
+                <img src="img/apple.png" alt="Apple">
+                <label for="apple">Apple</label>
+                <input type="checkbox" name="apple" id="apple" value="Apple">
+            </div>
+            <div>
+                <img src="img/melon.png" alt="Melon">
+                <label for="melon">Melon</label>
+                <input type="checkbox" name="melon" id="melon" value="Melon">
+            </div>
+            <div>
+                <img src="img/cherries.png" alt="Cherries">
+                <label for="cherries">Cherries</label>
+                <input type="checkbox" name="cherries" id="cherries" value="Cherries">
+            </div>
+        </div>
+        <!-- Ice Level Selection -->
+        <h2>Ice</h2>
+        <div>
+            <div>
+                <label for="lessIce">Less Ice</label>
+                <input type="radio" name="ice" id="lessIce" value="Less Ice">
+            </div>
+            <div>
+                <label for="normalIce">Normal</label>
+                <input type="radio" name="ice" id="normalIce" value="Normal">
+            </div>
+            <div>
+                <label for="moreIce">More Ice</label>
+                <input type="radio" name="ice" id="moreIce" value="More Ice">
+            </div>
+        </div>
+        <!-- Order Button -->
+        <input type="submit" id="order" value="Order">
+    </form>
+    <div id="output">
+        <!-- Display the Order -->
+        <h2>Your order</h2>
+        <p><b>Ingredients:</b> <span id="ingredients"></span></p>
+        <p><b>Ice:</b> <span id="ice"></span></p>
+        <p><b>Price:</b> $<span id="price"></span></p>
+    </div>
+</body>
+</html>
