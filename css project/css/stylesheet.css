@@ -1,0 +1,584 @@
+/* styling for semantic elements */
+h1,h2,h3,h4,h5,h6{
+    font-family: "Spicy Rice", sans-serif;
+}
+p,a,li,figcaption,span,td{
+    font-family: "Fira Sans", sans-serif;
+    font-weight: bold;
+}
+/* styling to get rid of whitespace around the body */
+html, body {
+    overflow-x: hidden;
+}
+/* set background colour for the whole website */
+body{
+    background-color: #FFE8AD;
+    margin: 0;
+}
+/* styling for header */
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 4fr 1fr 1fr;
+    padding-left: 100px;
+    padding-top: 50px;
+    background-color: #ffe116;
+    margin: -8px;
+    height: 100%;
+    color: #352e00;
+}
+header a img{
+    padding-left: 120px;
+    height:  100px;
+    width: auto;
+    padding-bottom: 35px;
+}
+header p{
+    font-size: 23px;
+}
+/* styling for the image and text for product one */
+.productOne{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #ff9e96;
+    margin: 0 -8px 0 -8px;
+}
+.productOne img{
+    width: 350px;
+    height: auto;
+}
+.productOne h3{
+    font-size: 30px;
+}
+.textOne{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+/* styling for the svg button */
+.textOne a{
+    background-color: #0e0e0e;
+    width: 130px;
+    height: 40px;
+    border-radius: 8px;
+    color: #f8f8f8;
+    position: relative;
+    text-decoration: none;
+    padding-top: 20px;
+}
+.textOne a:before{
+    content: "S";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    font-size: 0;
+    transform: translate(85%, 5%);
+}
+.textOne a svg{
+    position: absolute;
+    z-index: -1;
+    transition: background-color 1s;
+}
+.textOne a:hover{
+    width: 43px;
+    height: 23px;
+    font-size: 0;
+    background: #D54E73;
+    color: #C22E57;
+}
+.textOne a:hover:before{
+    font-size: 33px;
+    font-weight: bold;
+    font-family: "Teko", sans-serif;
+    z-index: 0;
+}
+.imgOne{
+    background-color: #D54E73;
+    text-align: center;
+    margin: 55px;
+}
+/* styling for the image and text for product two */
+.productTwo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #FECC00;
+    margin-right: -8px;
+}
+.productTwo img{
+    width: 350px;
+    height: auto;
+}
+.productTwo h3{
+    font-size: 30px;
+}
+.textTwo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+/* styling for the svg button */
+.textTwo a{
+    background-color: #0e0e0e;
+    width: 130px;
+    height: 40px;
+    border-radius: 8px;
+    color: #f8f8f8;
+    position: relative;
+    text-decoration: none;
+    padding-top: 20px;
+}
+.textTwo a svg{
+    position: absolute;
+    z-index: -1;
+    transition: background-color 1s;
+}
+.textTwo a:hover{
+    width: 43px;
+    height: 23px;
+    font-size: 0;
+    background: #E4690A;
+    color: #F6842B;
+}
+.textTwo a:hover:before{
+    font-size: 33px;
+    font-weight: bold;
+    font-family: "Teko", sans-serif;
+    z-index: 0;
+}
+.textTwo a:before{
+    content: "S";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    font-size: 0;
+    transform: translate(85%, 5%);
+}
+.imgTwo{
+    background-color: #D61A20;
+    text-align: center;
+    margin: 55px;
+}
+/* adjust size and positioning for the gif */
+.gif{
+    width: 1100px;
+    height: auto;
+    margin: 50px 0 50px 80px;
+    box-shadow: 5px 5px 5px #0e0e0e;
+}
+/* styling for recipe videos */
+.recipes h4{
+    font-size: 40px;
+}
+.videos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.videos iframe{
+    border-radius: 50%;
+}
+/* styling for the other 4 candies */
+.otherCandies{
+    display: grid;
+    grid-template-columns: repeat(4, 0.5fr);
+}
+.otherCandies a{
+    color: #f6eebc;
+    text-decoration: none;
+}
+.otherCandies a img{
+    width: 225px;
+    height: auto;
+    border-radius: 10px;
+}
+.otherCandies a figcaption{
+    color: #78b0fe;
+    text-align: center;
+}
+.otherCandies a svg{
+    position: relative;
+    z-index: -1;
+    background-color: #0e0e0e;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    margin-left: 28px;
+    transform: translate(80%, 35%);
+    text-decoration: none;
+}
+.otherCandies a:nth-child(4){
+    margin-top: 40px;
+}
+h5{
+    font-size: 35px;
+}
+/* styling for footer */
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #deb887;
+    margin: 25px -8px -8px -8px;
+}
+footer .nav-one{
+    padding-left: 15px;
+}
+footer form p input{
+    height: 20px;
+    border-radius: 5px;
+}
+footer form textarea{
+    border-radius: 5px;
+    height: 50px;
+    width: 158px;
+}
+.submit{
+    height: 35px;
+    width: 95px;
+    background-color: #f6c3a6;
+    border-radius: 15px;
+    transition: 0.5s linear;
+}
+/* adjust style for hovering over button */
+.submit:hover{
+    color: #78b0fe;
+    background-color: #352e00;
+}
+
+.leftRight {
+    transform: translateX(-50px);
+    opacity: 0;
+    transition: all .5s;
+}
+/* animation effect for videos */
+.leftRight.active {
+    transform: translateX(0);
+    opacity: 1;
+    transition: all .5s;
+}
+.rightLeft {
+    transform: translateX(50px);
+    opacity: 0;
+    transition: all .5s;
+}
+.rightLeft.active {
+    transform: translateX(0);
+    opacity: 1;
+    transition: all .5s;
+}
+/* zoom in effect for other candies */
+.otherCandies figure img{
+    transform: scale(1);
+    transition: transform .5s ease-out;
+}
+.otherCandies figure:hover img{
+    transform: scale(1.3);
+}
+/* make website responsive for all major viewports */
+@media only screen and (min-width: 2560px){
+    header{
+        width: 2560px;
+    }
+    .header  a  img{
+        height: 350px;
+        width: auto;
+    }
+    .gif{
+        width: 2000px;
+        height: auto;
+    }
+    .videos iframe{
+        width: 1050px;
+        height: 450px;
+    }
+    .otherCandies figure img{
+        width: 515px;
+        height: auto;
+    }
+    .otherCandies figcaption{
+        font-size: 30px;
+    }
+    .otherCandies a svg{
+        margin-left: 65px;
+    }
+    footer{
+        grid-auto-flow: column;
+        justify-items: center;
+    }
+}
+@media only screen and (max-width: 1600px){
+    .gif{
+        width: 1250px;
+        height: auto;
+    }
+    .videos iframe{
+        width: 550px;
+        height: 450px;
+        justify-items: end;
+    }
+    .otherCandies figure img{
+        width: 220px;
+        height: auto;
+        margin-left: 30px;
+    }
+    .otherCandies figcaption{
+        font-size: 15px;
+    }
+    .otherCandies a svg{
+        margin-left: 50px;
+    }
+    footer{
+        grid-auto-flow: column;
+        justify-items: center;
+    }
+}
+@media only screen and (max-width: 1440px){
+    .gif{
+        width: 1100px;
+        height: auto;
+    }
+    .otherCandies figure img{
+        width: 200px;
+        height: auto;
+    }
+}
+@media only screen and (max-width: 1024px){
+    header a img{
+        width: 200px;
+        height: auto;
+    }
+    .gif{
+        width: 850px;
+        height: auto;
+    }
+    .otherCandies figure img{
+        width: 160px;
+        height: auto;
+        margin: 0;
+    }
+    .videos iframe{
+        width: 350px;
+        height: 250px;
+        margin-left: 75px;
+    }
+    .otherCandies a svg{
+        margin-left: 0;
+    }
+}
+@media only screen and (max-width: 768px){
+    header a img{
+        width: 140px;
+        height: auto;
+    }
+    header p{
+        font-size: 18px;
+    }
+    .otherCandies figure img{
+        width: 100px;
+        height: auto;
+        margin: 0;
+    }
+    .otherCandies a svg{
+        width: 100px;
+        margin-left: -45px;
+    }
+    .gif{
+        width: 600px;
+        height: auto;
+    }
+    .videos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .videos iframe{
+        width: 450px;
+        height: 300px;
+    }
+    .videos iframe:nth-child(2){
+        margin-top: 50px;
+    }
+    .textOne h3{
+        font-size: 25px;
+    }
+    .imgOne img{
+        width: 250px;
+        height: auto;
+    }
+    .textTwo h3{
+        font-size: 25px;
+    }
+    .imgTwo img{
+        width: 250px;
+        height: auto;
+    }
+}
+@media only screen and (max-width: 768px){
+    .otherCandies{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .otherCandies figure img{
+         width: 280px;
+         height: auto;
+         margin: 0;
+    }
+    .otherCandies a svg{
+        margin-left: 50px;
+    }
+}
+@media only screen and (max-width: 425px){
+    header{
+        padding-left: 0;
+        padding-top: 10px;
+        margin: 0;
+        height: 100%;
+        grid-template-columns: 2fr 2fr 1fr 2fr 2fr;
+        align-items: start;
+    }
+    header p{
+        font-size: 10px;
+        padding-left: 15px;
+    }
+    header a img{
+        padding-left: 0;
+        width: 100px;
+        height: auto;
+    }
+    .imgOne{
+        width: 200px;
+        height: 175px;
+    }
+    .imgOne img{
+        width: 175px;
+        height: auto;
+    }
+    .textOne{
+        margin-left: 20px;
+    }
+    .textOne h3{
+        font-size: 22px;
+    }
+    .textOne p{
+        font-size: 15px;
+    }
+    .productTwo{
+        width: 425px;
+    }
+    .imgTwo{
+        width: 170px;
+        height: 175px;
+    }
+    .imgTwo img {
+        width: 175px;
+        height: auto;
+    }
+    .textTwo{
+        margin-right: 15px;
+    }
+    .textTwo h3{
+        font-size: 22px;
+    }
+    .textTwo p{
+        font-size: 15px;
+    }
+    .gif{
+        margin: 10px 0 0 0;
+        width: 100%;
+        height: auto;
+    }
+    .otherCandies{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .otherCandies figure img{
+        width: 120px;
+        height: auto;
+        margin: 0;
+    }
+    .otherCandies a svg{
+        margin-left: -30px;
+    }
+    .videos{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .videos iframe{
+        width: 300px;
+        height: 200px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    header{
+        padding-top: 30px;
+    }
+    header a img{
+        width: 75px;
+    }
+    .textOne h3{
+        font-size: 20px;
+    }
+    .textOne p, .textTwo p{
+        font-size: 13px;
+    }
+    .imgOne{
+        width: 150px;
+        height: 100px;
+        padding-right: 20px;
+    }
+    .imgOne img{
+        width: 100px;
+        height: auto;
+    }
+    .imgTwo img{
+        width: 150px;
+        height: 150px;
+    }
+    .imgTwo{
+        margin: 11px;
+        height: 150px;
+    }
+    .textTwo h3{
+        font-size: 15px;
+    }
+    .productTwo{
+        width: 320px;
+    }
+    .gif{
+        width: 275px;
+        height: auto;
+        margin: 20px;
+    }
+    .recipes h4, h5{
+        font-size: 20px;
+    }
+    .videos iframe{
+        width: 200px;
+        height: 150px;
+    }
+    .otherCandies a{
+        margin-right: 20px;
+        font-size: 13px;
+    }
+    .otherCandies a svg{
+        width: 75px;
+        height: 30px;
+        margin-right: 0;
+        margin-left: -10px;
+    }
+    .otherCandies a img{
+        width: 90px;
+        height: auto;
+    }
+    footer p{
+        font-size: 12px;
+    }
+    footer h5{
+        font-size: 15px;
+    }
+
+}
