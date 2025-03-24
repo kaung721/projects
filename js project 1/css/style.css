@@ -1,0 +1,135 @@
+body {
+    display: flex;
+    gap: 8px;
+    background-color: #FFEA00;
+}
+
+p {
+    margin: 0;
+    font-weight: bold;
+}
+
+img {
+    height: 80px;
+    width: auto;
+}
+
+body > section:first-child {
+    width: 75%;
+    text-align: center;
+}
+
+body > section:first-child > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    padding: 10px 35px;
+    margin-bottom: 8px;
+}
+
+body > section:first-child > div > div {
+    padding: 10px;
+    border-radius: 15px;
+}
+
+body > section:first-child > div > div.active {
+    background: #FFEA00;
+    transition: all 0.3s ease-in-out;
+}
+
+body > section:first-child > div:nth-child(1) {
+    background-color: #800080;
+}
+
+body > section:first-child > div:nth-child(2) {
+    background-color: #00FFFF;
+}
+
+body > section:first-child > div:nth-child(3) {
+    background-color: #AAFF00;
+}
+
+body > section:first-child > div:nth-child(4) {
+    background-color: #FFBF00;
+}
+
+body > section:first-child > div:nth-child(5) {
+    background-color: #FF00FF;
+}    
+
+body > section:first-child > div > a {
+    border: 12px solid #FAF9F6;
+    border-radius: 50%;
+    font-size: 40px;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+body > section:first-child > div > a:hover {
+    border-color: #feea00;
+}
+
+body > section:nth-child(2) {
+    width: 25%;
+    text-align: center;
+}
+
+body > section:nth-child(2) > div {
+    background-color: #FAF9F6;
+    border-radius: 15px;
+    position: sticky;
+    top: 8px;
+    padding: 18px;
+}
+
+body > section:nth-child(2) > div > p {
+    padding-bottom: 8px;
+}
+
+body > section:nth-child(2) > div > p:first-child {
+    font-size: 65px;
+    font-style: italic;
+}
+
+body > section:nth-child(2) > div > p:nth-child(3) {
+    height: 50px;
+}
+
+body > section:nth-child(2) > div > div {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 8px;
+}
+
+body > section:nth-child(2) > div > div > a {
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 6px 20px;
+    border-radius: 15px;
+    color: #FAF9F6;
+    display: block;
+    cursor: pointer;
+    transform: scale(1.0);
+    transition: transform 0.2s ease-in-out;
+}
+
+#btnRandom {
+    background-color: #A9A9A9;
+}
+
+#btnResult {
+    background-color: #D2042D;
+}
+
+#btnReset {
+    background-color: #088F8F;
+}
+
+body > section:nth-child(2) > div > div > a:hover {
+    transform: scale(1.2);
+    transition: transform 0.5s ease-in-out;
+}
