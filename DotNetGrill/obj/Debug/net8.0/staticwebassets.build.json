@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "np3Ms6lNszAxFnAQXMBgJ5rKuuRh4EHKn7KhbRd2wfY=",
+  "Hash": "Z5+FQ3f1bplu/OQ1Vv0yMUwv0OKoJq218VeHxn3sOyY=",
   "Source": "DotNetGrill",
   "BasePath": "_content/DotNetGrill",
   "Mode": "Default",
@@ -1333,8 +1333,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "oytb92gtyp",
-      "Integrity": "cJ3o11av9pZJUiGcc5fx44Y6wutZ6H64XcEZWgfGPBg=",
+      "Fingerprint": "cosajnzipj",
+      "Integrity": "VPG3RXdZyv3/x7LUKaDaS11qgW8qvqz8WLRaGtebg0o=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1380,6 +1380,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\head-chef.jpg"
+    },
+    {
+      "Identity": "K:\\Work\\Projects\\DotNetGrill\\wwwroot\\img\\steakhouse.jpg",
+      "SourceId": "DotNetGrill",
+      "SourceType": "Discovered",
+      "ContentRoot": "K:\\Work\\Projects\\DotNetGrill\\wwwroot\\",
+      "BasePath": "_content/DotNetGrill",
+      "RelativePath": "img/steakhouse#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ermjh57s9c",
+      "Integrity": "BrG3lld98Jz/nnd+sNopvNi/qGjjZtEQXAFetGEFdXM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\steakhouse.jpg"
     },
     {
       "Identity": "K:\\Work\\Projects\\DotNetGrill\\wwwroot\\js\\site.js",
@@ -2602,6 +2623,51 @@
   ],
   "Endpoints": [
     {
+      "Route": "css/site.cosajnzipj.css",
+      "AssetFile": "K:\\Work\\Projects\\DotNetGrill\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "429"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VPG3RXdZyv3/x7LUKaDaS11qgW8qvqz8WLRaGtebg0o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 20:16:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cosajnzipj"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VPG3RXdZyv3/x7LUKaDaS11qgW8qvqz8WLRaGtebg0o="
+        }
+      ]
+    },
+    {
       "Route": "css/site.css",
       "AssetFile": "K:\\Work\\Projects\\DotNetGrill\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -2612,7 +2678,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "416"
+          "Value": "429"
         },
         {
           "Name": "Content-Type",
@@ -2620,11 +2686,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"cJ3o11av9pZJUiGcc5fx44Y6wutZ6H64XcEZWgfGPBg=\""
+          "Value": "\"VPG3RXdZyv3/x7LUKaDaS11qgW8qvqz8WLRaGtebg0o=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 18:19:13 GMT"
+          "Value": "Sat, 19 Apr 2025 20:16:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2634,52 +2700,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-cJ3o11av9pZJUiGcc5fx44Y6wutZ6H64XcEZWgfGPBg="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.oytb92gtyp.css",
-      "AssetFile": "K:\\Work\\Projects\\DotNetGrill\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "416"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"cJ3o11av9pZJUiGcc5fx44Y6wutZ6H64XcEZWgfGPBg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 18:19:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "oytb92gtyp"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-cJ3o11av9pZJUiGcc5fx44Y6wutZ6H64XcEZWgfGPBg="
+          "Value": "sha256-VPG3RXdZyv3/x7LUKaDaS11qgW8qvqz8WLRaGtebg0o="
         }
       ]
     },
@@ -5228,6 +5249,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-5so84Jx6PUG5rWzM6fkyNw2aAepeQjGxslYP3i4mOoU="
+        }
+      ]
+    },
+    {
+      "Route": "img/steakhouse.ermjh57s9c.jpg",
+      "AssetFile": "K:\\Work\\Projects\\DotNetGrill\\wwwroot\\img\\steakhouse.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "150660"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BrG3lld98Jz/nnd+sNopvNi/qGjjZtEQXAFetGEFdXM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 20:14:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ermjh57s9c"
+        },
+        {
+          "Name": "label",
+          "Value": "img/steakhouse.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BrG3lld98Jz/nnd+sNopvNi/qGjjZtEQXAFetGEFdXM="
+        }
+      ]
+    },
+    {
+      "Route": "img/steakhouse.jpg",
+      "AssetFile": "K:\\Work\\Projects\\DotNetGrill\\wwwroot\\img\\steakhouse.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "150660"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BrG3lld98Jz/nnd+sNopvNi/qGjjZtEQXAFetGEFdXM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 20:14:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BrG3lld98Jz/nnd+sNopvNi/qGjjZtEQXAFetGEFdXM="
         }
       ]
     },

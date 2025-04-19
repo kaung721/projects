@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\img\\head-chef.jpg"
     },
     {
+      "Id": "K:\\Work\\Projects\\DotNetGrill\\wwwroot\\img\\steakhouse.jpg",
+      "PackagePath": "staticwebassets\\img\\steakhouse.jpg"
+    },
+    {
       "Id": "K:\\Work\\Projects\\DotNetGrill\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
