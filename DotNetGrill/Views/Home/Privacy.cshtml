@@ -3,4 +3,94 @@
 }
 <h1>@ViewData["Title"]</h1>
 
-<p>Use this page to detail your site's privacy policy.</p>
+<!-- Example from https://www.w3schools.com/bootstrap5/bootstrap_collapse.php -->
+<div id="accordion">
+    <div class="card">
+        <div class="card-header">
+            <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+                1. Information We Collect
+            </a>
+        </div>
+        <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+            <div class="card-body">
+                We may collect the following types of information:
+
+                Personal Information (e.g., name, email address) when you voluntarily provide it to us through forms or account creation.
+
+                Usage Data such as browser type, pages visited, time spent on site, and other analytics data.
+
+                Cookies and Tracking Technologies to enhance your user experience.
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-header">
+            <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+                2. How We Use Your Information
+            </a>
+        </div>
+        <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+            <div class="card-body">
+                We use your information to:
+
+                Provide, maintain, and improve our services
+
+                Send you updates, newsletters, or promotional materials (if you opt in)
+
+                Monitor site usage and performance
+
+                Respond to your questions or support requests
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-header">
+            <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+                3. Sharing Your Information
+            </a>
+        </div>
+        <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+            <div class="card-body">
+                We do not sell, rent, or trade your personal information to third parties. We may share data with:
+
+                Trusted third-party services that help operate our site (e.g., hosting, analytics)
+
+                Legal authorities, if required by law
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-header">
+            <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseFour">
+                4. Your Choices
+            </a>
+        </div>
+        <div id="collapseFour" class="collapse" data-bs-parent="#accordion">
+            <div class="card-body">
+                You can:
+
+                Opt out of marketing emails at any time by clicking “unsubscribe”
+
+                Disable cookies through your browser settings
+
+                Contact us to access, update, or delete your personal information
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-header">
+            <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseFive">
+                5. Data Security
+            </a>
+        </div>
+        <div id="collapseFive" class="collapse" data-bs-parent="#accordion">
+            <div class="card-body">
+                We take reasonable steps to protect your data but cannot guarantee 100% security. Always use strong passwords and avoid sharing sensitive information over public networks.
+            </div>
+        </div>
+    </div>
+</div>
