@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DotNetGrill")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a17afc4b879e1dfe76c38f5ef065124b83823c0b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+71446a57d8bc10dfcc19599abfbbcca1483836b7")]
 [assembly: System.Reflection.AssemblyProductAttribute("DotNetGrill")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DotNetGrill")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
