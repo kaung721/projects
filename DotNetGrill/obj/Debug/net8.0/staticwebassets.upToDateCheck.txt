@@ -1,6 +1,7 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\img\head-chef.jpg
+wwwroot\img\no-image.jpg
 wwwroot\img\steakhouse.jpg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css

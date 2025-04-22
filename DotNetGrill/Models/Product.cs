@@ -16,5 +16,8 @@ namespace DotNetGrill.Models
         public int Rating { get; set; }
 
         public string? Photo { get; set; } //? means it is nullable 
+
+        public int CategoryId { get; set; } // Foreign key to Category
+        public Category Category { get; set; } // Navigation property to Category
         }
     }

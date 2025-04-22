@@ -2551,6 +2551,88 @@
       ]
     },
     {
+      "Route": "img/no-image.4tpf18n477.jpg",
+      "AssetFile": "img/no-image.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "56605"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aGHgJviIbmlYXYkq7T/hxp9Ug8uFoTIYAJJptY6e1Ig=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 02:21:13 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4tpf18n477"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aGHgJviIbmlYXYkq7T/hxp9Ug8uFoTIYAJJptY6e1Ig="
+        },
+        {
+          "Name": "label",
+          "Value": "img/no-image.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "img/no-image.jpg",
+      "AssetFile": "img/no-image.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "56605"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aGHgJviIbmlYXYkq7T/hxp9Ug8uFoTIYAJJptY6e1Ig=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 02:21:13 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aGHgJviIbmlYXYkq7T/hxp9Ug8uFoTIYAJJptY6e1Ig="
+        }
+      ]
+    },
+    {
       "Route": "img/steakhouse.ermjh57s9c.jpg",
       "AssetFile": "img/steakhouse.jpg",
       "Selectors": [],

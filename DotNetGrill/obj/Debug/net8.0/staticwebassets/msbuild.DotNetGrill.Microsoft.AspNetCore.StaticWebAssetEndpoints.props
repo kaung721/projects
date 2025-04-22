@@ -48,6 +48,18 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"mtfw13himv"},{"Name":"integrity","Value":"sha256-5so84Jx6PUG5rWzM6fkyNw2aAepeQjGxslYP3i4mOoU="},{"Name":"label","Value":"_content/DotNetGrill/img/head-chef.jpg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"153390"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00225so84Jx6PUG5rWzM6fkyNw2aAepeQjGxslYP3i4mOoU=\u0022"},{"Name":"Last-Modified","Value":"Sat, 19 Apr 2025 18:05:42 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotNetGrill/img/no-image.4tpf18n477.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\no-image.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4tpf18n477"},{"Name":"integrity","Value":"sha256-aGHgJviIbmlYXYkq7T/hxp9Ug8uFoTIYAJJptY6e1Ig="},{"Name":"label","Value":"_content/DotNetGrill/img/no-image.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"56605"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022aGHgJviIbmlYXYkq7T/hxp9Ug8uFoTIYAJJptY6e1Ig=\u0022"},{"Name":"Last-Modified","Value":"Mon, 21 Apr 2025 02:21:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotNetGrill/img/no-image.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\no-image.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-aGHgJviIbmlYXYkq7T/hxp9Ug8uFoTIYAJJptY6e1Ig="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"56605"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022aGHgJviIbmlYXYkq7T/hxp9Ug8uFoTIYAJJptY6e1Ig=\u0022"},{"Name":"Last-Modified","Value":"Mon, 21 Apr 2025 02:21:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/DotNetGrill/img/steakhouse.ermjh57s9c.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\steakhouse.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
